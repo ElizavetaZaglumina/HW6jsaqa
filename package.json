@@ -1,0 +1,18 @@
+{
+  "name": "hw6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:mobile:headed": "npx cypress run --browser chrome --headed --config-file cypress.mobile.config.js",
+    "cypress:mobile:headless": "npx cypress run --browser edge --headless --config-file cypress.mobile.config.js",
+    "cypress:desktop:headed": "npx cypress run --browser edge --headed --config-file cypress.config.js",
+    "cypress:desktop:headless": "npx cypress run --browser chrome --headless --config-file cypress.config.js"  
+  },
+  "author": "Elizaveta Zaglumina",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.14.2"
+  }
+}
